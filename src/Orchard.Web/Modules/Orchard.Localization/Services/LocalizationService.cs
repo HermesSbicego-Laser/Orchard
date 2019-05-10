@@ -92,7 +92,7 @@ namespace Orchard.Localization.Services {
             }
 
             // Warning: May contain more than one localization of the same culture.
-            return query.List().ToList();
+            return query.List();
         }
 
     }
